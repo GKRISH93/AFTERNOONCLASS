@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="5.597519">
+    <testcase classname="To check Login Functions" name="To pass valid username and valid password" time="3.115583">
+        <system-out><![CDATA[Given To open chromeDriver..................................................passed
+When To pass valid username and password....................................passed
+Then To click LoginButton...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check Login Functions" name="To pass invalid username and invalid password" time="2.481936">
+        <system-out><![CDATA[Given To open chromeDriver..................................................passed
+When To pass invalid username and valid password............................passed
+Then To click LoginButton...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

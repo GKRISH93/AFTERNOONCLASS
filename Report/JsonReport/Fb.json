@@ -1,0 +1,222 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1815704800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To open chromeDriver",
+            "match": {
+              "location": "stepdefintion.toOpenChromeDriver()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-22T12:22:47.332Z",
+        "line": 8,
+        "name": "To pass valid username and valid password",
+        "description": "",
+        "id": "to-check-login-functions;to-pass-valid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 444900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screenShoot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3797133300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass valid username and password",
+            "match": {
+              "location": "stepdefintion.toPassValidUsernameAndPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "blue"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "blue@123"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "Numbers",
+                  "123456"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41289800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click LoginButton",
+            "match": {
+              "location": "stepdefintion.toClickLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newaccount"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 740248900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To open chromeDriver",
+            "match": {
+              "location": "stepdefintion.toOpenChromeDriver()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-22T12:22:53.007Z",
+        "line": 18,
+        "name": "To pass invalid username and invalid password",
+        "description": "",
+        "id": "to-check-login-functions;to-pass-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 56700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screenShoot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2655558700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To pass invalid username and valid password",
+            "match": {
+              "location": "stepdefintion.toPassInvalidUsernameAndValidPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "pass",
+                  "numbers"
+                ]
+              },
+              {
+                "cells": [
+                  "red",
+                  "red@123",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "blue",
+                  "blue@456",
+                  "456"
+                ]
+              },
+              {
+                "cells": [
+                  "orange",
+                  "orange@789",
+                  "789"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40857600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "To click LoginButton",
+            "match": {
+              "location": "stepdefintion.toClickLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newaccount"
+          }
+        ]
+      }
+    ],
+    "name": "To check Login Functions",
+    "description": "",
+    "id": "to-check-login-functions",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/gopik/eclipse-workspace/CUCUMBER123/src/test/resources/Featurefiles/LOGIN2.FEATURE",
+    "tags": [
+      {
+        "name": "@newaccount",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
